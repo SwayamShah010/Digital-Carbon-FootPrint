@@ -1,0 +1,248 @@
+.root-pane {
+    -fx-background-color: #f4f7f4;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.header-bar {
+    -fx-background-color: #1b4332;
+}
+
+.app-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.path-label {
+    -fx-text-fill: #d8f3dc;
+    -fx-font-size: 12px;
+}
+
+.primary-button {
+    -fx-background-color: #40916c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #52b788;
+}
+
+.metric-card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-padding: 14;
+    -fx-spacing: 4;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 6, 0, 0, 2);
+}
+
+.metric-title {
+    -fx-font-size: 11px;
+    -fx-text-fill: #6c757d;
+    -fx-font-weight: bold;
+}
+
+.metric-value {
+    -fx-font-size: 18px;
+    -fx-text-fill: #1b4332;
+    -fx-font-weight: bold;
+}
+
+.metric-value-accent {
+    -fx-font-size: 18px;
+    -fx-text-fill: #2d6a4f;
+    -fx-font-weight: bold;
+}
+
+.section-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1b4332;
+}
+
+.summary-grid {
+    -fx-padding: 0;
+}
+
+.app-subtitle {
+    -fx-font-size: 11px;
+    -fx-text-fill: #b7e4c7;
+}
+
+.main-tabs .tab-header-area {
+    -fx-padding: 8 0 0 24;
+}
+
+.main-tabs .tab {
+    -fx-background-color: #e9f5ee;
+    -fx-background-radius: 8 8 0 0;
+}
+
+.main-tabs .tab:selected {
+    -fx-background-color: white;
+}
+
+.carbon-banner {
+    -fx-background-color: #d8f3dc;
+    -fx-background-radius: 10;
+    -fx-padding: 14 18 14 18;
+}
+
+.carbon-banner-icon {
+    -fx-font-size: 26px;
+}
+
+.carbon-banner-title {
+    -fx-font-size: 12px;
+    -fx-text-fill: #1b4332;
+}
+
+.carbon-banner-value {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2d6a4f;
+}
+
+/* Recommendation cards */
+.rec-scroll {
+    -fx-background-color: transparent;
+}
+
+.rec-card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-padding: 14 16 14 16;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 6, 0, 0, 2);
+    -fx-border-width: 0 0 0 4;
+}
+
+.rec-card-high {
+    -fx-border-color: #e63946;
+}
+
+.rec-card-medium {
+    -fx-border-color: #f4a261;
+}
+
+.rec-card-low {
+    -fx-border-color: #457b9d;
+}
+
+.rec-card-info {
+    -fx-border-color: #52b788;
+}
+
+.rec-badge {
+    -fx-padding: 2 8 2 8;
+    -fx-background-radius: 10;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.rec-badge-high {
+    -fx-background-color: #e63946;
+}
+
+.rec-badge-medium {
+    -fx-background-color: #f4a261;
+}
+
+.rec-badge-low {
+    -fx-background-color: #457b9d;
+}
+
+.rec-badge-info {
+    -fx-background-color: #52b788;
+}
+
+.rec-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1b4332;
+}
+
+.rec-detail {
+    -fx-font-size: 12px;
+    -fx-text-fill: #495057;
+}
+
+.rec-action {
+    -fx-font-size: 12px;
+    -fx-text-fill: #2d6a4f;
+    -fx-font-style: italic;
+}
+
+.rec-savings {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1b4332;
+}
+
+.carbon-banner-equivalent {
+    -fx-font-size: 11px;
+    -fx-text-fill: #40916c;
+    -fx-font-style: italic;
+}
+
+.methodology-note {
+    -fx-font-size: 10px;
+    -fx-text-fill: #868e96;
+    -fx-padding: 4 0 0 2;
+}
+
+.region-picker-label {
+    -fx-font-size: 10px;
+    -fx-text-fill: #d8f3dc;
+}
+
+.comparison-banner {
+    -fx-background-color: #e7f0fd;
+    -fx-background-radius: 10;
+    -fx-padding: 10 16 10 16;
+}
+
+.comparison-banner-icon {
+    -fx-font-size: 18px;
+}
+
+.comparison-banner-text {
+    -fx-font-size: 12px;
+    -fx-text-fill: #1d3557;
+    -fx-font-weight: bold;
+}
+
+.secondary-button {
+    -fx-background-color: white;
+    -fx-text-fill: #1b4332;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 16 8 16;
+    -fx-border-color: #40916c;
+    -fx-border-radius: 6;
+    -fx-border-width: 1.5;
+    -fx-cursor: hand;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #d8f3dc;
+}
+
+.cancel-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #e63946;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 16 8 16;
+    -fx-border-color: #e63946;
+    -fx-border-radius: 6;
+    -fx-border-width: 1.5;
+    -fx-cursor: hand;
+}
+
+.cancel-button:hover {
+    -fx-background-color: #ffe5e7;
+}
